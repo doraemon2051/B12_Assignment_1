@@ -164,3 +164,74 @@ font-weight: 900;
     margin: 0;
 }
 /* Productiive user Section end */
+
+/* What our users say Section start */
+.users_say_section{
+    width: 80%;
+    margin: 100px auto;
+}
+.users_say_h1{
+    color: #252432;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+.user_card {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+.card_h2 {
+    font-size: 24px;
+    color: #252432;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+.card_p {
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+    
+}
+.card_person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.card-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.card_person_name{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.card_date {
+    font-size: 14px;
+    color: #B3B3B3;
+}
+.card_date {
+    font-size: 14px;
+    color: #B3B3B3;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
