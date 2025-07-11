@@ -153,6 +153,11 @@ font-weight: 900;
     align-items: center;
     margin-top: 40px;
 }
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .user_counter_h1 {
     font-size: 80px;
     color: #4E47FF;
