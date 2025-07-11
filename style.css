@@ -48,6 +48,7 @@ font-weight: 900;
     text-decoration: none;
     font-size: 16px;
     border: none;
+    font-weight: 700;
 }
 .banner_container{
     width: 80%;
@@ -163,7 +164,7 @@ font-weight: 900;
     color: rgba(0,0,0, 0.50);
     margin: 0;
 }
-/* Productiive user Section end */
+/* Productive user Section end */
 
 /* What our users say Section start */
 .users_say_section{
@@ -299,3 +300,56 @@ font-weight: 900;
     cursor: pointer;
 }
  /* Form section end */
+
+/* Footer section start */
+footer {
+    background-color: white;
+    padding: 100px 0;
+}
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+.footer_h1 {
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.footer_p {
+    font-size: 16px;
+    color: #8987A1;
+    margin: 0;
+}
+.footer_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.footer_link a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* footer section end */
+
+/* hover style */
+.nav_btn:hover,
+.banner_btn:hover,
+.action_btn:hover,
+.form_btn:hover {
+    background-color: #2E8B57;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
